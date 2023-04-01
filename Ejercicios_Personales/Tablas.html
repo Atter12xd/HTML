@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Tablas</title>
+    <style>
+        td{
+            background-color: rgb(178, 224, 196);
+        }
+        th{
+            background-color: rgb(62, 126, 126);
+        }
+    </style>
 </head>
 <body>
     <!-- 
@@ -34,6 +42,13 @@
         a la tabla para establecer un pie de tabla, esto es algo
         que algunas tablas tienen como suma de cantidades o
         total.
+
+        Para hacer que las columnas ocupen mas de una fila o 
+        mas de una columna tenemos 2 atributos:
+            roswpam: sirve para que una celda ocupe mas de
+            una fila, el valor por defecto es 1
+            colspan sirve para que una celda ocupe mas 
+            de una columna, el valor por defecto es 1
     -->
     <h1>Tablas</h1>
 
@@ -76,18 +91,17 @@
         </tr>
         <tr>
             <td>11:45 - 12:40</td>
-            <td>Recreo</td>
+            <td colspan="5" >Recreo</td>
         <tr>
             <td>12:40 - 13:35</td>
-            <td>Ingles</td>
+            <td rowspan="2" >Ingles</td> <!-- Este elemento ocupa 2 filas, depende de el numero que pongamos-->
             <td>Sociales</td>
             <td>Ingles</td>
             <td>Tutoria</td>
             <td>Ingles</td>
         </tr>
         <tr>
-            <td>13:35 - 14:30</td>
-            <td>Tecnologia</td>
+            <td>13:35 - 14:30</td> 
             <td>Frances</td>
             <td>Tecnologia</td>
             <td>Frances</td>
@@ -96,7 +110,7 @@
     </tbody>
     <tfoot>
         <tr>
-            <td>Total de asignaturas</td>
+            <td colspan="5">Total de asignaturas</td>
             <td>12</td>
         </tr>
     </tfoot>
