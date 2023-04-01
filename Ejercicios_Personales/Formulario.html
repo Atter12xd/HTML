@@ -10,10 +10,18 @@
     <!--"form" representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.-->
     <!-- "input" representa un campo de datos tipado que normalmente se asocia con un control que permite a los usuarios editar su valor.-->
     <form>
-        <input type="number" /> <!-- para permitir al usuario ingresar un número (rechazan entradas no numericas)-->
-        <input type="password" /> <!-- proporcionan una forma para que el usuario ingrese una contraseña de forma segura.-->
-        <input type="text"> <!-- para permitir al usario ingresar String ya viene por defecto-->
-        <input type="submit"> <!--especifica el método HTTP que el navegador usará para enviar el formulario...  se puede cambiar el nombre de submit, poniendo (value ="texto")--> 
+        <fieldset> <!--sirve para agrupar los elementos-->
+        <legend>Datos personales</legend> <!-- para nombrar o etiquetar un grupo creado con FIELDSET-->
+        <label>Edad</label>
+        <input type="number" placeholder="Ingrese su edad...."/> <!-- para permitir al usuario ingresar un número (rechazan entradas no numericas)-->
+        <br />
+        <label>Contraseña</label>
+        <input type="password" placeholder="Ingrese contraseña..."/> <!-- proporcionan una forma para que el usuario ingrese una contraseña de forma segura.-->
+        <br />
+        <label>Nombre</label>
+        <input type="text" placeholder="Ingrese su nombre...." > <!-- para permitir al usario ingresar String ya viene por defecto-->
+        <br />
+        <input type="submit" > <!--especifica el método HTTP que el navegador usará para enviar el formulario...  se puede cambiar el nombre de submit, poniendo (value ="texto")--> 
         <textarea></textarea> <!-- para que el usario pueda poner un texto-->
         <button>Aceptar</button> <!-- se crea un boton con el nombre "enviar" que sirve para enviar :)-->
         <select> <!--  representa un control que muestra un menú de opciones-->
@@ -21,6 +29,7 @@
             <option value="mayer">Mayer</option>
             <option value="basilio">Basilio</option>
         </select>
+    </fieldset>
     </form>
 </body>
 </html>
