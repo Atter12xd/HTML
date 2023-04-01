@@ -18,25 +18,24 @@
 
         la estructura basica de una tabla se compone de:
         table -> Etiqueta que encierra una tabla 
-        tr -> table row, etiqueta que construye una fila
+        tr -> table row, etiqueta que construye una fila.
 
         truco: el numero de celdas dentro de un td establecera el numero de
-        columnas de la tabla
-
+        columnas de la tabla.
 
         Los titulos de las tablas se establecen con la
         etiqueta caption, es una etiqueta opcional, y segun
         la especficacion esa etiqueta se coloca justo
-        despues de la etiqueta table
+        despues de la etiqueta table.
 
         Las cabeceras de las tablas se establecen con la 
         etiqueta thead.
         Dentro tendremos una etiqueta tr normal, pero en el 
         caso de las celdas, las estableceremos con la
-        etiqueta th en lugar de td
+        etiqueta th en lugar de td.
 
         El contenido de la tabla debe ir dentro de una 
-        etiqueta tbody para representar el cuerpo de la tabla
+        etiqueta tbody para representar el cuerpo de la tabla.
 
         De forma opcional podemos colocar un tfoot 
         a la tabla para establecer un pie de tabla, esto es algo
@@ -48,7 +47,12 @@
             roswpam: sirve para que una celda ocupe mas de
             una fila, el valor por defecto es 1
             colspan sirve para que una celda ocupe mas 
-            de una columna, el valor por defecto es 1
+            de una columna, el valor por defecto es 1.
+
+
+        Cuando necesitamos que una etiqueta col agrupe mas de 
+        una columna, tenemos el atributo span, que funciona 
+        exactamente igual que rowspan y colspan.
     -->
     <h1>Tablas</h1>
 
@@ -57,7 +61,7 @@
         <thead>
         <tbody>    
             <tr>
-                <th></th>
+                <th></th> 
                 <th>L</th>
                 <th>M</th>
                 <th>X</th>
@@ -87,11 +91,11 @@
             <td>Ciencias</td>
             <td>Lengua</td>
             <td>Lengua</td>
-            <td>Educacion fisica</td>
+            <td>Educaciòn fisica</td>
         </tr>
         <tr>
             <td>11:45 - 12:40</td>
-            <td colspan="5" >Recreo</td>
+            <td colspan="5" >Recreo</td> <!-- ocupa 5 columnas, depende de el numero que pongamos -->
         <tr>
             <td>12:40 - 13:35</td>
             <td rowspan="2" >Ingles</td> <!-- Este elemento ocupa 2 filas, depende de el numero que pongamos-->
@@ -115,9 +119,7 @@
         </tr>
     </tfoot>
 
-
     </table>
-
 
 
 </body>
