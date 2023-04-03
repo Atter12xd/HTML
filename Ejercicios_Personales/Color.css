@@ -1,14 +1,11 @@
 body{
-    background-color: rgb(145, 167, 160); 
-}
-#primera{
-    color: rgb(133, 122, 120);
+    background-color: #eee;
 }
 
-.Etiqueta{
-    color: rgb(148, 189, 189);
+.caja{
+    margin: 15px;
+    padding: 15px;
+    border:  solid;
+    background-color: #aaf;
 }
-
-.oouu{
-    color: brown;
-}
+ 

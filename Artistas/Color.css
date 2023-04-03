@@ -1,3 +1,66 @@
 body{
     background-color: beige;
 }
+.color{
+    background-color: rgb(145, 138, 138);
+    padding: 15px;
+
+    
+}
+.imagen{
+    padding: 1px;
+    
+}
+
+
+footer{
+    border-style: solid;
+    background-color:  antiquewhite;
+}
+
+.link1{
+    border-style:solid;
+    
+}
+
+.link2{
+    border-style:solid;
+}
+
+.link3{
+    border-style:solid;
+}
+
+.atter{
+    border-style:solid;
+    padding: 36px;
+}
+.Evan{
+    border-style:solid;
+    
+}
+
+.Chris{
+    border-style:solid;
+    padding: 18px;
+
+}
+.pa1{
+    border-style:solid;
+    padding: 9px;
+    background-color:rgb(99, 84, 84)
+    
+}
+
+.pa2{
+    border-style:solid;
+    padding: 18px;
+    background-color: rgb(99, 84, 84);
+    
+}
+
+.pa3{
+    border-style:solid;
+    background-color: rgb(99, 84, 84);
+   
+}
