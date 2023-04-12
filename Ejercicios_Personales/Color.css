@@ -10,5 +10,10 @@ body{
     border-color: rgb(124, 168, 185);
     border-left: 10px cyan solid ;
     background-color: #aaf;
+    border-radius: 10px;
+    height: 200px;
+    width: 800px;
+    color: rgb(145, 26, 65);
+
 }
  
