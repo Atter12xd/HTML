@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <title>Tablas</title>
     <style>
-        td{
-            background-color: rgb(178, 224, 196);
+        col{
+            background-color: rgb(169, 218, 218);
         }
+
+
         th{
             background-color: rgb(62, 126, 126);
+        }
+
+        td{
+            background-color: rgb(138, 139, 204);
         }
     </style>
 </head>
@@ -53,13 +59,22 @@
         Cuando necesitamos que una etiqueta col agrupe mas de 
         una columna, tenemos el atributo span, que funciona 
         exactamente igual que rowspan y colspan.
+
+        la etiqueta colgroup, que nos permite selecionar una 
+        columna en concreto. Dentro pondremos tantas 
+        etiquetas col como columnas tengamos, cada etiqueta 
+        col equivaldra a una columna siguiendo el mismo
+        orden que tienen en la tablas
+
+        si necesitamos que una etiqueta col agrupe mas de 
+        una columna, tenemos el atributo span, que funciona
+        exactamente igual que rowspan y colspan.
     -->
     <h1>Tablas</h1>
 
     <table>
         <caption>Horarios de clases</caption>
         <thead>
-        <tbody>    
             <tr>
                 <th></th> 
                 <th>L</th>
@@ -69,6 +84,7 @@
                 <th>V</th>
             </tr>
         </thead>
+        <tbody>    
         <tr>
             <td>8:30 - 9:30</td>
             <td>Matematicas</td>
