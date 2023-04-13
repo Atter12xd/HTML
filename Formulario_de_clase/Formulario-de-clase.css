@@ -1,0 +1,22 @@
+body{
+    background: url("https://cdn.pixa/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+}
+.titulo{
+    color: brown;
+}
+
+fieldset{
+    border: solid  5px salmon;
+}
+
+.login{
+    
+    color: rgb(72, 97, 97);
+    text-shadow: 10px 10px 10px rgb(65, 54, 165);
+    font-size: 40px;
+}
+.nombre{
+    color: rgb(72, 97, 97);
+    text-shadow: 10px 10px 10px rgb(65, 54, 165);
+    font-size: 25px;
+}
