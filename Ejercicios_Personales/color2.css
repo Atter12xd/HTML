@@ -1,0 +1,18 @@
+.caja{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Aceptar{
+    background-color: aqua;
+    
+    color: rgba(42, 112, 173, 0.938);
+
+}
+
+.Cancelar{
+    background-color: rgb(166, 201, 201);
+    
+    color: rgba(42, 112, 173, 0.938);
+}

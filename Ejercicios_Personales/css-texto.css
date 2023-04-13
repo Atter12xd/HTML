@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    color: rgb(147, 108, 184);
+    text-align: justify ;
+    text-decoration: underine ;
+    text-indent: 10px;
+    line-height: 3;
+    word-spacing: 1px;
+    text-shadow: 5px 2px 5px  rgb(65, 175, 157) ; 
+    font-family: cursive;
+    font-style: italic;
+    font-weight:bold;
+    
+}
+
+a{
+    text-decoration: line-through;
+    text-transform: capitalize
+    ;
+}
