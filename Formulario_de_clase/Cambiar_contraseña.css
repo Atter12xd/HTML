@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100;
+    background-image: url(fondo5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cuadrado{
+    font-size: 20px;
+    border: solid rgb(240, 205, 228) 2px;
+    border-radius: 18px;
+    border-left: px rgb(57, 30, 210);
+}
+
+.le{
+    font-size: 40px;
+    color: rgb(212, 229, 245);
+    text-shadow: 5px 2px 5px rgb(240, 205, 228);
+    
+}
+
+.contra1{
+    font-size: 30px;
+    color: rgb(212, 229, 245);
+    text-shadow: 5px 2px 5px rgb(240, 205, 228);
+
+}
+
+.contra2{
+    font-size: 30px;
+    color: rgb(212, 229, 245);
+    text-shadow: 5px 2px 5px rgb(240, 205, 228);
+}
+
+.aa{
+    text-shadow: 10px 7px 10px rgb(71, 69, 69);
+}
