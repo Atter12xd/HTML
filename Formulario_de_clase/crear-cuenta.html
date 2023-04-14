@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crear_cuenta_color.css">
     <title>Document</title>
     <style>
         fieldset{
             text-align: center;
+            border-radius: 20px;
+            border-color: rgb(163, 230, 221);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-left: 5px rgb(84, 161, 119) solid;
+            border-right: 5px rgb(84, 161, 119) solid;
+            border-top: 5px rgb(59, 129, 156) solid;
+            border-bottom: 5px rgb(59, 129, 156) solid;
+
         }
     </style>
 </head>
@@ -24,29 +33,29 @@
             <input type="text" id="nombre" placeholder="Ingrese nombre...." >
             </div>
             <div>
-            <label for="apellidos">Last name</label>
+            <label class="apellido" for="apellidos">Last name</label>
             <input type="text" id="apellidos">
             <div>
-            <label for="username">create user</label>
+            <label class="cuenta"  for="username">create user</label>
             <input type="text">
             </div>
             <div>
-            <label for="contraseña">Password</label>
+            <label class="contraseña"  for="contraseña">Password</label>
             <input type="password">
             </div>
             <div>
-            <label for="numero">enter your age</label>
+            <label class="edad"  for="numero">enter your age</label>
             <input type="number">
             </div>
             <div>
-            <h2>Genero</h2>
-            <label for="masculino">Masculino</label>
+            <h2 class="genero" >Gender</h2>
+            <label class="masculino" for="masculino">Male</label>
             <input type="radio" name="genero">
-            <label for="femenino">Femenino</label>
+            <label class="femenino" for="femenino">Female</label>
             <input type="radio" name="genero">
             </div>
             <div>
-            <h2>Pais</h2>
+            <h2>country</h2>
             <select name="paises" id="">
                 <optgroup label="Paises">
                     <option value="">Peru</option>
@@ -56,6 +65,10 @@
                     <option value="">Brazil</option>
                 </optgroup>
             </select>
+            </div>
+            <br>
+            <div>
+            <input type="submit" value="Crear cuenta" >
             </div>
         </fieldset>
         </form>

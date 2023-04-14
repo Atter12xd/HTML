@@ -1,6 +1,13 @@
 body{
-    
-    background-image: 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 100;
+    background-image: url(fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .titulo{
