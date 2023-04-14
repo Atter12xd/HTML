@@ -1,4 +1,8 @@
-
+*{
+  text-align: center;
+  height: 20vh;
+  justify-content: center;
+}
 .tarjeta{
   display:flex;
   flex-direction:column;
@@ -8,19 +12,26 @@
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   font-family: cursive;
+  
 }
 .titulo{
   font-size: 35px;
   padding: 10px 10px 0 10px;;
+  
 }
 .cuerpo{
   padding: 10px;
+  
 }
 .pie{
   background: #6699ff;
   border-radius:0 0 15px 15px;
   padding: 10px;
   text-align:center;
+}
+
+fieldset{
+  text-align: center;
 }
 
 
