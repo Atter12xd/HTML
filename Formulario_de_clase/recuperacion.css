@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100;
+    background-image: url(fondo6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+fieldset{
+    border: 5px solid rgb(199, 206, 203);
+    font-size: 50px;
+}
+
+.titulo{
+    border: 1px solid rgb(199, 206, 203);
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: 5px 2px 5px chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name{
+    border: 1px solid rgb(199, 206, 203);
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 5px 2px 5px chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email{
+    border: 1px solid rgb(199, 206, 203);
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 5px 2px 5px chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.datos{
+    border: 1px solid rgb(199, 206, 203);
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 5px 2px 5px chocolate;
+    
+}
+
+.enviar{
+    
+    font-size: 30px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+
+.ema{
+    font-size: 13px;
+}
