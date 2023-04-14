@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        fieldset{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <form action="formulario_go.html">
+    <form  action="formulario_go.html">
         <fieldset>
             <legend class="login">Crear cuenta</legend>
             <div>
@@ -19,10 +24,10 @@
             <input type="text" id="nombre" placeholder="Ingrese nombre...." >
             </div>
             <div>
-            <label for="apellidos">Apellido</label>
+            <label for="apellidos">Last name</label>
             <input type="text" id="apellidos">
             <div>
-            <label for="username">Crear Usuario</label>
+            <label for="username">create user</label>
             <input type="text">
             </div>
             <div>
@@ -30,22 +35,29 @@
             <input type="password">
             </div>
             <div>
-            <label for="pais">Pais</label>
-            <input type="text">
-            </div>
-            <div>
-            <label for="numero">Numero de celular</label>
+            <label for="numero">enter your age</label>
             <input type="number">
             </div>
             <div>
             <h2>Genero</h2>
             <label for="masculino">Masculino</label>
             <input type="radio" name="genero">
-            <label for="femenini">Femenino</label>
+            <label for="femenino">Femenino</label>
             <input type="radio" name="genero">
+            </div>
+            <div>
+            <h2>Pais</h2>
+            <select name="paises" id="">
+                <optgroup label="Paises">
+                    <option value="">Peru</option>
+                    <option value="">Venezuela</option>
+                    <option value="">Colombia</option>
+                    <option value="">Ecuador</option>
+                    <option value="">Brazil</option>
+                </optgroup>
+            </select>
             </div>
         </fieldset>
         </form>
-    
 </body>
 </html>
