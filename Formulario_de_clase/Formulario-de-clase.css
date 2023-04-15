@@ -19,6 +19,7 @@ body{
     text-shadow: 10px 10px 10px rgb(65, 54, 165);
     font-size: 40px;
     
+    
 }
 .nombre{
     color: rgb(72, 97, 97);
@@ -29,4 +30,44 @@ body{
     color: rgb(72, 97, 97);
     text-shadow: 10px 10px 10px rgb(65, 54, 165);
     font-size: 25px;
+}
+
+.cuadrado{
+    border-radius: 15px;
+    font-size: 35px;
+    border: solid 3px rgb(190, 198, 199)
+}
+
+.crear{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(28, 138, 235);
+    text-shadow: 3px 2px 5px rgb(140, 172, 214);
+    
+}
+
+.contra{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(28, 138, 235);
+    text-shadow: 3px 2px 5px rgb(140, 172, 214);
+}
+
+.go{
+    font-size: 15px;
+
+}
+
+.user{
+    font-size: 15px;
+    text-shadow: 10px 10px 10px rgb(65, 54, 165);
+    border-radius: 4px;
+    border: rgb(176, 207, 219) solid 3px ; 
+}
+
+.password{
+   font-size: 15px;
+   text-shadow: 10px 10px 10px rgb(65, 54, 165);
+   border-radius: 4px;
+   border: rgb(176, 207, 219) solid 3px ; 
 }
