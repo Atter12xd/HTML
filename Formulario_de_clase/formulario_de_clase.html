@@ -16,24 +16,25 @@
 <body>
         
     <form action="formulario_go.html">
-    <fieldset>
+    <fieldset class="cuadrado" >
         <legend class="login">Login</legend>
         <div>
         <label class="nombre" for="nombre">User</label>
-        <input type="text" id="nombre" placeholder="Ingrese usario...." >
+        <input class="user" type="text" id="nombre" placeholder="Ingrese usario...." required >
         </div>
         <div>
         <label class="contraseña" for="contraseña">Password</label>
-        <input type="password" id="contraseña" placeholder="Ingrese contraseña...." >
+        <input class="password"  type="password" id="contraseña" placeholder="Ingrese contraseña...." required >
         </div>
         <div>
-        <button><a href="crear-cuenta.html">create Account</a></button>
+        <button><a class="crear" href="crear-cuenta.html">create Account</a></button>
         </div>
         <div>
-        <button><a href="recuperacion_de_contraseña.html">Forgot your password?</a></button>
+        <button><a class="contra" href="recuperacion_de_contraseña.html">Forgot your password?</a></button>
         </div>
-        <input type="submit" value="Go" title="go" >
+        <input class="go" type="submit" value="Go" title="go" >
     </fieldset>
     </form>
+    <script src="alertas.js"></script>
 </body>
 </html>

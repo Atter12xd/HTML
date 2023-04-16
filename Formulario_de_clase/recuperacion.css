@@ -48,14 +48,24 @@ fieldset{
 
 .enviar{
     
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .name{
     font-size: 30px;
+    
 }
 
 
 .ema{
-    font-size: 13px;
+    font-size: 17px;
+    border-radius: 4px;
+    border-color: rgb(148, 201, 154);
+}
+
+.texto{
+    font-size: 17px;
+    border-radius: 4px;
+    border-color: rgb(148, 201, 154);
+
 }
