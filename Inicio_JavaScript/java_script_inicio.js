@@ -1,0 +1,1 @@
+document.write("<h1>Hello World</h1>") // pone un Hola mundo en la pagina
