@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Ejercicios_Personales"
+		},
+		{
+			"path": "../aaaa"
+		},
+		{
+			"path": "../Formulario_de_clase"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Formulario_de_clase"
+	}
+}
